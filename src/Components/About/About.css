@@ -1,0 +1,40 @@
+#about{
+    background-color: #000524;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+.profile-pic{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.main-col{
+    padding-right: 5%;
+}
+h2{
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+h2 p{
+    line-height: 30px;
+    color: #ccc;
+}
+.download{
+    width: 58.3333%;
+    padding-top: 6px;
+}
+.download .button{
+    margin-top: 6px;
+    background-color: #444;
+}
+.download .button:hover{
+    background: #fff;
+    color: #2b2b2b;
+}
+.download .button i{
+    margin-right: 15px;
+    font-size: 20px;
+}

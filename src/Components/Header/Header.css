@@ -1,0 +1,130 @@
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    text-align: center;overflow: hidden;
+}
+header::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+#nav-wrap {
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+}
+#nav-wrap > a.mobile-btn {
+    display: none;
+}
+#nav-wrap ul, li{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.opanque{
+    background-color: #333;
+}
+ul#nav {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+}
+ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+}
+ul#nav li.current a { color: #fe6928; }
+ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    transition: color .2s ease-in-out;
+}
+header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.row::before{
+    content: '';
+    display: table;
+}
+header .banner-text {
+    width: 100%;
+}
+header .banner-text h1 {
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    letter-spacing: -2px;
+    color: #fff;
+    margin: 0 auto 18px auto;
+}
+header .banner-text h3 {
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: #ddd;
+    margin: 0 auto;
+    width: 70%;
+}
+header .banner hr {
+    width: 60%;
+    margin: 18px auto 24px auto;
+    border-color: rgba(150, 150, 150, 0.1);
+}
+header .social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+}
+header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+}
+.social .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.social .btn:first-child {
+    margin-right: 30px;
+}
+.social .btn i {
+    margin-right: 15px;
+}
+.project-btn {
+    background-color: #1abc9c !important;
+}
+.github-btn {
+    background-color: #34495e !important;
+}

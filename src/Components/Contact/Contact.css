@@ -1,0 +1,111 @@
+#contact{
+    background: #191919;
+    padding-top: 96px;
+    padding-bottom: 102px;
+    color: #636363;
+}
+#contact h1{
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+}
+#contact h4{
+    font: 16px/24px 'opensans-bold', sans-serif;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+}
+#contact h1 span{
+    display: none;
+}
+#contact a:visited{
+    color: #0762f9;
+}
+.section-head{
+    margin-bottom: 42px;
+}
+.header-col{
+    padding-top: 6px;
+}
+.lead{
+    font: 18px/36px 'opensans-light', sans-serif;
+    padding-right: 3%;
+}
+#contact-form{
+    margin-bottom: 30px;
+}
+#contact label{
+    font: 15px/24px 'opensans-bold', sans-serif;
+    margin: 12px 0;
+    color: #EBEEEE;
+    display: inline-block;
+    float: left;
+    width: 26%;
+}
+#contact input, textarea{
+    padding: 10px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 65%;
+}
+.required{
+    color: #0762f9;
+    font-size: 13px;
+}
+#contact button.submit{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #0d0d0d;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    margin-left: 26%;
+    border-radius: 0;
+}
+#image-loader{
+    display: none;
+    position: relative;
+    left: 18px;
+    top: 17px;
+}
+#message-success, #message-warning{
+    display: none;
+    background: #0f0f0f;
+    padding: 24px;
+    margin-bottom: 36px;
+    width: 65%;
+    margin-left: 26%;
+}
+#message-warning{
+    color: #d72828;
+}
+#message-succes{
+    color: #0762f9;
+}
+#message-succes i{
+    margin-right: 10px;
+}
+#twitter{
+    margin-top: 12px;
+    padding: 0;
+}
+#twitter li{
+    margin: 6px 0 12px 0;
+    line-height: 30px;
+}
+#twitter li span{
+    display: block;
+}
+#twitter li b a{
+    font: 13px/36px 'opensans-regular', Sans-serif;
+    color: #474747 !important;
+    border: none;
+}
